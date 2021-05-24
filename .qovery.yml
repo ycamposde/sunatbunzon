@@ -1,0 +1,11 @@
+---
+application:
+  name: "scrapersunat"
+  project: "sunatbuzon"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-scrapersunat"
+  routes:
+  - application_name: "scrapersunat"
+    paths:
+    - "/*"
